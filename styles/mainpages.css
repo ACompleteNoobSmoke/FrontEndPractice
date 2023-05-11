@@ -1,0 +1,22 @@
+*,
+*::before,
+*::after { 
+    margin: 0; 
+    padding: 0; 
+    box-sizing: border-box; 
+}
+
+.mainbanner {
+    background-color: yellow;
+}
+
+.mainbanner h1{
+    text-align: center;
+    font-family: "Audiowide", sans-serif;
+    font-size: 3rem;
+}
+
+.navbar {
+    height: 10%;
+    border: 2px solid yellow;
+}
