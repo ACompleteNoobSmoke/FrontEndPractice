@@ -1,0 +1,48 @@
+
+
+
+
+@media screen and (min-width: 1024px) {
+    .fightercontainer {
+        width: 15%;
+        height: 700px;
+        border: 3px solid red;
+        margin-top: 3%;
+        margin-left: 1%;
+    }
+
+    .fighterimg {
+        width: 80%;
+        height: 30%;
+        position: relative;
+        margin-left: 9%;
+        margin-top: 3%;
+    }
+
+    .fighterimg > img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .fighterinfo {
+        text-align: center;
+    }
+
+    #fightername {
+       font-size: 2rem;
+       font-weight: bolder;
+       margin-bottom: 3px;
+    }
+
+    #fighternickname {
+        font-size: 1.5rem;
+    }
+
+    #fighternickname::before {
+        content: open-quote;
+    }
+
+    #fighternickname::after {
+        content: close-quote;
+    }
+}
