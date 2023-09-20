@@ -1,0 +1,45 @@
+.container {
+    width: 60%;
+    height: 50vh;
+    margin: 10% auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.style_grid {
+    height: 90%;
+    margin-top: 13%;
+    overflow: hidden;
+    margin-left: 20px;
+    border: 10px dashed yellow;
+}
+
+.style_img {
+   display: block;
+   height: 30%;
+}
+
+.style_img > img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.style_name {
+    text-decoration: underline;
+    font-style: italic;
+    display: inline-block;
+    text-align: center;
+    margin-left: 39%;
+}
+
+.style_name > h1 {
+    text-align: center;
+}
+
+.style_info {
+    height: 50%;
+    overflow: hidden;
+    white-space: inherit;
+    overflow: scroll;
+}

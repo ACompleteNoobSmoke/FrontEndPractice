@@ -1,12 +1,9 @@
 
-
-
-
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 768px) {
     .fightercontainer {
         width: 15%;
         height: 700px;
-        border: 3px solid red;
+        border: 3px solid gold;
         margin-top: 3%;
         margin-left: 1%;
     }
@@ -44,5 +41,19 @@
 
     #fighternickname::after {
         content: close-quote;
+    }
+
+    .fighterstats {
+        padding-top: 30px;
+    }
+
+    .fighterstats > p {
+        padding: 1rem;
+        font-size: 1.5rem;
+        font-weight: bold;
+    }
+
+    .fighterstats > p > span {
+        float: right;
     }
 }

@@ -1,0 +1,25 @@
+
+.side_navbar {
+    height: 94vh;
+    width: 10%;
+    background-color: black;
+}
+
+.side_links {
+    list-style-type: none;
+}
+
+.side_links > li {
+    font-size: x-large;
+    padding-top: 100px;
+    padding-left: 30px;
+}
+
+.side_links > li > a {
+    text-decoration: none;
+    color: yellow;
+}
+
+.side_links > li:hover {
+    background-color: red;
+}

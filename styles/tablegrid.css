@@ -1,0 +1,22 @@
+
+#table_div {
+    margin-top: 20%;
+    margin-left: 30%;
+}
+
+.headers {
+    color: red
+}
+
+.headers > th {
+    padding: 5px;
+}
+
+.table_grid {
+    border-collapse: collapse;
+    width: 40%;
+}
+
+.table_row > td {
+    text-align: center;
+}
