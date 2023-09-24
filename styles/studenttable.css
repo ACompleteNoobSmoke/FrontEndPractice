@@ -1,0 +1,44 @@
+.table_container {
+    width: 38%;
+    height: 50vh;
+    border: 3px solid black;
+    border-radius: 20px;
+    background-color: aqua;
+    position: absolute;
+    top: 270px;
+    left: 600px;
+    text-align: center;
+    overflow: auto;
+}
+
+.table_title {
+    border-bottom: 3px solid black;
+    text-align: center;
+}
+
+.table_title > h1 {
+    text-transform: uppercase;
+}
+
+
+.student_table th, td {
+    padding-left: 40px;
+}
+
+.action_btn {
+    display: inline-block;
+    width: 70px;
+    text-align: center;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    line-height: 25px;
+}
+
+#update {
+    background: green;
+}
+
+#delete {
+    background: red;
+}

@@ -1,14 +1,12 @@
-
-
-.login_container {
+.register_container {
     width: 35%;
-    height: 50vh;
+    height: 60vh;
     border: 3px solid black;
     border-radius: 20px;
     background-color: aqua;
     position: absolute;
-    top: 270px;
-    left: 600px;
+    top: 230px;
+    left: 630px;
     text-align: center;
 }
 
@@ -21,28 +19,18 @@
     text-transform: uppercase;
 }
 
-.home_container {
-    color: white;
-    font-size: large;
-}
-
-.home_container > img {
-      margin-top: 25px;
-      height: 50%;
-}
-
-.form_container {
-    height: 70%;
+.register_form_container {
+    height: 90%;
     background-color: magenta;
 }
 
-.login_form > input[type=text],
-.login_form > input[type=password] {
+.register_form > input[type=text],
+.register_form > input[type=password] {
     background-color: magenta;
     width: 80%;
     margin-top: 50px;
     margin-left: 8px;
-    padding: 20px;
+    padding: 5px;
     font-size: large;
     border: none;
     border-bottom: 2px solid aqua;
@@ -53,13 +41,13 @@
     text-align: center;
 }
 
-.login_form > input[type=text]:focus,
-.login_form > input[type=password]:focus {
+.register_form > input[type=text]:focus,
+.register_form > input[type=password]:focus {
     background-color: aqua;
     color: blueviolet;
 }
 
-.login_form > input[type=submit] {
+.register_form > input[type=submit] {
     width: 150px;
     height: 50px;
     border-radius: 30px;
@@ -69,7 +57,7 @@
     font-size: large;
 }
 
-.login_form > input[type=submit]:hover {
+.register_form > input[type=submitj]:hover {
     cursor:grab;
     transform: scale(1.5);
     color: magenta;

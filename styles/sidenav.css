@@ -1,0 +1,27 @@
+.sidenav {
+    border: 3px solid aqua;
+    width: 10%;
+    height: 70vh;
+    background-color: aqua;
+    overflow: hidden;
+}
+
+.home_sidenav {
+    list-style: none;
+    padding-right: 50px;
+    width: max-content;
+}
+
+.home_sidenav > li {
+    color: purple;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    margin-top: 80px;
+    width: 100%;
+    border-bottom: 3px solid brown;
+}
+
+.home_sidenav > li:hover {
+    color: aqua;
+    background-color: purple;
+}

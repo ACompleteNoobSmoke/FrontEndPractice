@@ -1,0 +1,55 @@
+
+.banner {
+    height: 20vh;
+    background-color: aqua;
+    border: 1px solid aqua;
+    text-align: center;
+}
+
+.banner > h1 {
+    margin-top: 2px;
+    font-size: 9rem;
+    text-transform: uppercase;
+    color: purple;
+}
+
+.profile_sidenav {
+    border: 3px solid aqua;
+    width: 10%;
+    height: 70vh;
+    background-color: aqua;
+    overflow: hidden;
+}
+
+.profile_img_container {
+    margin-top: 50px;
+    border-radius: 40px;
+    border: 3px solid green;
+    height: 20%;
+}
+
+.profile_img {
+    height: 100%;
+    width: 100%;
+    border-radius: 40px;
+}
+
+.home_sidenav {
+    list-style: none;
+    padding-right: 50px;
+    width: max-content;
+}
+
+.home_sidenav > li {
+    color: purple;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    margin-top: 80px;
+    width: 100%;
+    border-bottom: 3px solid brown;
+}
+
+.home_sidenav > li:hover {
+    color: aqua;
+    background-color: purple;
+}
