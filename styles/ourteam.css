@@ -1,0 +1,54 @@
+.team_container {
+    display: flex;
+    width: 70%;
+    height: 60vh;
+    margin: 0 auto;
+    margin-top: 10%;
+}
+
+#team_header {
+    color: orangered;
+}
+
+.flex_item {
+    width: 40%;
+    height: 100%;
+    border-radius: 2rem;
+    margin-left: 1rem;
+    background-color: green;
+   
+}
+
+.flex_item:first-of-type {
+    margin-left: 0;
+}
+
+.team_image_container {
+    height: 40%;
+    width: 70%;
+    margin: 0 auto;
+    margin-top: 2rem;
+    border-radius: 9rem;
+}
+
+.team_img {
+    height: 100%;
+    width: 100%;
+    object-fit:cover;
+    border-radius: 9rem;
+}
+
+.team_name {
+    text-align: center;
+    color: blue;
+}
+
+.team_bio {
+    font-style: italic;
+    line-height: 1.4;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    text-align: center;
+    color: yellow;
+    font-weight: 900;
+}

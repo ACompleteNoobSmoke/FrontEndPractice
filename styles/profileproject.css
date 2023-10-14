@@ -1,0 +1,13 @@
+@import url(/styles/profileabout.css);
+
+.project_container {
+    height: 20vh;
+    margin-top: 47rem;
+    position: fixed;
+    width: 90%;
+    overflow: hidden;
+}
+
+.project_header {
+    padding-top: 0rem;
+}

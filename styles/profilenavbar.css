@@ -1,0 +1,39 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.logo {
+    display: inline;
+    line-height: 3rem;
+    font-size: 3rem;
+}
+
+.nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: gold;
+    height: 5vh;
+    overflow: hidden;
+}
+
+.nav_links {
+    float: right;
+    font-size: 2rem;
+    height: 100%;
+}
+
+.nav_links > a {
+    float: left;
+    padding-right: 3rem;
+    padding-left: 3rem;
+    text-decoration: none;
+    margin-right: .4rem;
+    height: 100%;
+}
+
+.nav_links > a:hover {
+    background-color: black;
+    color: gold;
+}
