@@ -1,0 +1,96 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+#container {
+    overflow: hidden;
+}
+
+#container > header {
+    padding: 1rem;
+}
+
+#container > header h1, h4 {
+    display: inline-block;
+}
+
+#container > header h1 {
+    color: purple;
+    font-size: 3.2rem;
+    font-style: italic;
+    font-family:Georgia, 'Times New Roman', Times, serif
+}
+
+#container > header > h4 {
+    margin-left: 1rem;
+}
+
+#container > section {
+    height: 41.5vh;
+}
+
+#img_container {
+    border: 2px solid purple;
+}
+#container > section > img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    
+}
+
+#blog_container {
+    display: flex;
+}
+
+.posts {
+    width: 70%;
+    padding: 2rem;
+    overflow: auto;
+}
+
+.post > p:first-of-type {
+    display: inline-block;
+    text-decoration: underline;
+    font-size: 2rem;
+    padding: 0;
+    color: purple;
+}
+
+.post > p {
+    display: block;
+}
+
+.useful_links {
+    width: 30%;
+}
+
+.useful_links > div {
+    background-color: purple;
+    width: 80%;
+    height: 80%;
+    margin-left: 3.5rem;
+    margin-top: 2rem
+}
+
+.useful_links > div > p {
+    background-color: red;
+    display: inline-block;
+    padding: 2rem;
+    font-size: 2.5rem;
+    margin-left: 5.5rem;
+    color: white;
+}
+
+
+.useful_links > div > a:first-of-type {
+    margin-top: -1rem;
+}
+
+.useful_links > div > a {
+    display: block;
+    margin-left: 5.5rem;
+    margin-top: 1rem;
+    color: yellow;
+}

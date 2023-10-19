@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    background: linear-gradient(to bottom right, white 60%, purple 40%);
+}
+
+header {
+    padding: 1%;
+}
+
+header > div:first-of-type {
+    display: inline-block;
+    width: 3%;
+    height: 4rem;
+}
+
+header > div:first-of-type > img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    vertical-align: middle;
+}
+
+header > section {
+    display: inline-block;
+    margin-left: 1%;
+    width: 30%;
+    vertical-align: middle;
+}
+
+header > section > a {
+    margin-left: 8%;
+    font-size: 1.2rem;
+    text-decoration: none;
+    color: purple;
+}
+
+#flex_container {
+    height: 89vh;
+    display: flex;
+}
+
+.flex_item {
+    width: 50%;
+}
+
+.food_bio {
+    width: 40%;
+    padding: 5%;
+}
+
+
+.food_bio > div {
+    width: 70%;
+    height: 20%;
+    margin-left: 2%;
+    margin-top: 30%;
+}
+
+.food_bio > div > h5 {
+    color: crimson;
+    font-size: 1.3rem;
+    line-height: 1.5;
+}
+
+
+.food_bio > div > h2 {
+    color: purple;
+    font-size: 2.2rem;
+    line-height: 1.3;
+}
+
+.food_bio > div > a {
+    display: inline-block;
+    background-color: purple;
+    color: white;
+    border-radius: 25px;
+    padding: 2%;
+    font-size: 1.5rem;
+    text-decoration: none;
+    margin-top: 1%;
+    margin-left: 5%;
+}
+
+.food_bio > div > div {
+    margin-top: 70%;
+}
+
+.food_bio > div > div > img {
+    width: 10%;
+    height: 20%;
+    border-radius: 20%;
+    margin-left: 7%;
+}
+
+.food_pic > div {
+    margin-top: 4%;
+    width: 95%;
+    height: 95%;
+}
+
+.food_pic > div > img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
